@@ -10,9 +10,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h2 className={styles.title}>
           Sistema de Controle Financeiro
-        </h1>
+        </h2>
 
       </main>
 
@@ -24,7 +24,7 @@ export default function Home() {
         >
           Powered by teste de gravação {' '}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+        </a> 
       </footer>
     </div>
   )
